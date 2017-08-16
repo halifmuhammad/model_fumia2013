@@ -1,3 +1,8 @@
+#*************************************************************************
+# Author: {Je-Hoon Song, <song.je-hoon@kaist.ac.kr>
+#
+# This file is part of {model_fumia2013}.
+#*************************************************************************
 from boolean3_addon import to_logic 
 from os.path import exists,dirname,join
 import pandas as pd 

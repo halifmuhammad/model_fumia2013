@@ -1,3 +1,8 @@
+#*************************************************************************
+# Author: {Je-Hoon Song, <song.je-hoon@kaist.ac.kr>
+#
+# This file is part of {model_fumia2013}.
+#*************************************************************************
 from os.path import dirname,join
 
 def remove_dup(test_list):

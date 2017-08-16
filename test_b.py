@@ -1,3 +1,8 @@
+#*************************************************************************
+# Author: {Je-Hoon Song, <song.je-hoon@kaist.ac.kr>
+#
+# This file is part of {model_fumia2013}.
+#*************************************************************************
 import json,itertools,pytest
 from os.path import exists
 from numpy.random import random

@@ -3,7 +3,7 @@
 #*************************************************************************
 # Author: {Je-Hoon Song, <song.je-hoon@kaist.ac.kr>
 #
-# This file is part of {sbie_optdrug}.
+# This file is part of {model_fumia2013}.
 #*************************************************************************
 
 import pytest
