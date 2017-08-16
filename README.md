@@ -2,9 +2,14 @@
 
 The model_fumia2013 reproduces the CRC model described in (Fumiã et al., 2013). Run with following commands: 
 
-```
+```bash 
+# preprocessing for model network 
 pytest -qs test_a.py
+
+# figure 3 in (Fumiã et al., 2013)
 pytest -qs test_b.py
+
+# figure 4 in (Fumiã et al., 2013)
 pytest -qs test_c.py
 ```
 
