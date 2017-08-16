@@ -1,5 +1,7 @@
 ### Fumia network 
 
+The model_fumia2013 reproduces the CRC model described in (Fumiã et al., 2013). Run with following commands: 
+
 ```
 pytest -qs test_a.py
 pytest -qs test_b.py
