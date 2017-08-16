@@ -58,21 +58,6 @@ def check_cyclic_phenotype(seq):
 
 
 def attach_phenotype(result):
-# from the paper: 
-# Considering the effects of mutations, reported on the next subsection, 
-# they include the following basic
-# cell phenotypes: 
-# apoptotic, characterized by active caspases;
-# glycolytic, with H1f1 activated under normoxia; 
-# immortalized in which hTert is active; 
-# migratory, associated to inactivate Ecadherin;
-# mutator, corresponding to inactive Atm/Atr proteins in the presence of DNA damage; 
-# proliferative, in which cyclins are activated along the cell cycle in the correct sequence; 
-# and quiescent, with cyclins inactive or activated in a wrong sequence.
-# 위키를 살펴보면, 
-# https://en.wikipedia.org/wiki/Cyclin
-# D는 항상 켜져 있어야 하고, 
-# E, A, B 순서로 켜져야 한다는 것을 알 수 있다.
 
     simul_result = result['simul_result']
     # input_cond = result['input_condition']
@@ -124,3 +109,4 @@ def attractor_summary(data):
     return A, P, Q, U
 
 cycs = ['State_CycA','State_CycB','State_CycD','State_CycE']
+
