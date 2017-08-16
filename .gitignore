@@ -1,0 +1,6 @@
+chk-*
+output-*
+figure-*
+*.pyx
+.cache
+__pycache__
