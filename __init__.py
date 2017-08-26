@@ -8,6 +8,7 @@ import json,itertools,pytest
 from os.path import exists,dirname,join
 from numpy.random import random
 from boolean3_addon import attr_cy, to_logic
+import pandas as pd 
 
 __all__ = [] 
 
@@ -29,6 +30,14 @@ def modeltext():
 
     return "\n".join(lines2)
 
+
+def nodeinfo():
+
+    datafile = join(dirname(__file__),
+        'dataset-fumia-node-info-update-2.csv')
+    
+    return pd.read_csv(datafile)
+ 
 
 def get_input_combinations():    
 
