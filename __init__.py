@@ -13,7 +13,7 @@ __all__ = []
 
 def modeltext():
 
-    datast_fumia = join(dirname(__file__), 'dataset-fumia-model-ws.txt')    
+    datast_fumia = join(dirname(__file__), 'output-a1-fumia-model-processed-weighted-sum.txt')
     with open(datast_fumia, 'r') as fobj:
         lines = fobj.readlines()
         lines2 = [] 
