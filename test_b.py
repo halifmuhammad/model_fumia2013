@@ -19,6 +19,7 @@ from model_fumia2013.rule import *
 
 
 def test_32ic(force, progress):
+    print('cccc')
     
     if exists(chk_with_32cond) and force == False:
         return;
@@ -52,11 +53,14 @@ def test_32ic(force, progress):
         res = attach_phenotype({'input_condition': sim_input, 'simul_result': res})        
         
         results.append(res)
+
+    print('aaaaa')
     
     json.dump(results, open(chk_with_32cond, 'w'), indent=4)
 
 
 def test_32ic_summary(force, progress):
+    print('bbbb')
     
     if exists(output_b1_summary) and force == False:
         return;
@@ -89,7 +93,6 @@ def test_32ic_summary(force, progress):
             k += 1
                 
     df0.groupby(['input','phenotype']).sum().to_csv(output_b1_summary)
-
 
 fumia_model = join(dirname(model_fumia2013.__file__),
     'output-a1-fumia-model-processed-weighted-sum.txt')
